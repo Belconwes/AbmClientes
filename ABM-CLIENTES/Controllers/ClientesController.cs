@@ -43,8 +43,11 @@ namespace ABM_CLIENTES.Controllers
         }
 
         // GET: Clientes/Create
+        [HttpGet]
         public IActionResult Create()
         {
+           
+
             return View();
         }
 
